@@ -22,7 +22,7 @@ const Layout = () => {
 
 	return (
 		<div>
-			<BrowserRouter basename={basename}>
+			<BrowserRouter basename="/">
 				<ScrollToTop>
 					<Navbar />
 					<Routes>
@@ -30,9 +30,6 @@ const Layout = () => {
 						<Route path="/register" element={<Register />} />
 						<Route path="/login" element={<Login />} />
 						<Route path="/schedule" element={<Schedule />} />
-						{/* <Route path="/login" element={<Login />} />
-						<Route path="/register" element={<Register />} />
-						<Route path="/schedule" element={<Schedule />} /> */}
 						<Route path="/demo" element={<Demo />} />
 						<Route path="/single/:theid" element={<Single />} />
 						<Route path="*" element={<h1>Not found!</h1>} />

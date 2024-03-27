@@ -1,16 +1,36 @@
+@media screen and (max-width: 500px) {
+	.container-cal{
+    max-width: 550px;
+    display: flex;
+    margin-left: 2%;
+  }
+  .calendar{
+  
+    margin-left: 2%;
+    display: flex;
+    min-height: 400px;
+    max-width: 450px;
+  }
+}
 .calendar{
-    max-width: 1150px;
-    min-width: 550px;
-    height: 900px;
+  display: flex;
+  min-width: 602px;
+  min-height: 800px ;
+margin-left: 3.3%;
     border-style: inset;
     background-color: rgba(255, 255, 255, 0.956);
-  border-width: 10px;
+  border-width: 7px;
   border-color: rgba(191, 253, 253, 0.263) rgba(255, 255, 255, 0.397);
   box-shadow: inset 1px 0px 4px rgb(199, 251, 250);
+  justify-content: center;
 
 
 }
- .container{
-    align-items: center;
+ .container-cal{
+  background-color: rgba(206, 206, 206, 0.478);
+  min-width: 650px;
+  max-width: 884px;
+  max-height: fit-content;
+
 
  }
