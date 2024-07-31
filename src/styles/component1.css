@@ -1,0 +1,36 @@
+.component1-container {
+    display: flex;
+    position: relative;
+  }
+  .component1-video {
+    width: 312px;
+    filter: opacity(0.6);
+    height: 480px;
+ 
+  }
+  /* .component1-root-class-name {
+    top: -217px;
+    left: 170px;
+    position: absolute;
+    margin-top: 237px;
+  }
+  @media(max-width: 991px) {
+    .component1-video {
+      top: 144px;
+      left: 239px;
+      width: 354px;
+      height: 542px;
+    }
+  }
+  @media(max-width: 767px) {
+    .component1-video {
+      width: 767px;
+    }
+  }
+  @media(max-width: 479px) {
+    .component1-video {
+      width: 479px;
+      height: 862px;
+    }
+  } */
+  

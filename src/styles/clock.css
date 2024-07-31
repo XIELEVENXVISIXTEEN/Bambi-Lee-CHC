@@ -1,0 +1,55 @@
+.clock_container{
+  
+  text-align: center;
+      font-size: 24px;
+      border-style: ridge;
+      max-height: fit-content;
+      
+      
+      border-width: 15px;
+      border-color: black;
+      background-color: chartreuse;
+      min-width: fit-content;
+}
+.time{
+  font-size: 160px;
+  
+}
+.month,
+.day,
+.year{
+  border-style: inset;
+  border-width: 7px;
+
+  background-color:white ;
+  color: black;
+  max-width: fit-contfent;
+  margin-bottom: 10%  ;
+
+
+
+}
+.clock-mount{
+  text-align: center;
+  padding-top: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  min-width: 640px;
+  max-height: 255px;
+  border-style:solid;
+  background-color: black;
+  border-top-right-radius: 40%;
+  border-top-left-radius: 40%;
+  box-shadow:inset 1px 0px 40px gray ;
+}
+.hour {
+  border-style: inset;
+  border-width:14px;
+  background-color: darkgreen ;
+}
+.minute{
+  border-style: inset;
+  border-width: 14px ;
+  background-color: darkgreen;
+}
